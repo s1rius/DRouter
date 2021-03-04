@@ -65,6 +65,7 @@
         <activity android:name="com.didi.demo.fragment.RouterPageViewPagerActivity" />
         <activity android:name="com.didi.demo.fragment.RouterPageSingleActivity" />
         <activity android:name="com.didi.demo.fragment.RouterPageStackActivity" />
+        <activity android:name="com.didi.demo.activity.ActivityTest4" />
     </application>
 
 </manifest>

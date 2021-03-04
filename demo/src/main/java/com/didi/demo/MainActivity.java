@@ -73,6 +73,12 @@ public class MainActivity extends AppCompatActivity {
                         });
                 break;
 
+            case R.id.start_activity4:
+                // Intent i = new Intent(this, ActivityTest4.class);
+                // startActivity(i);
+                DRouter.build("/activity/test4kt").start();
+                break;
+
             case R.id.start_activity_no:
                 DRouter.build("/activity/no").start(this, new RouterCallback() {
                     @Override

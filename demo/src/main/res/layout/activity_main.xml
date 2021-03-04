@@ -37,6 +37,13 @@
             android:text="uri= /activity/test3 hold()" />
 
         <Button
+            android:id="@+id/start_activity4"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uri= /activity/test4 viewbinding" />
+
+        <Button
             android:id="@+id/start_activity_no"
             android:onClick="onClick"
             android:layout_width="match_parent"
